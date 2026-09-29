@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamaha Music Latin America - Comunidad y Música</title>
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-logo">
+                <img src="yamahalogo.jpg" alt="Yamaha Logo" class="logo-img">
+            </a>
+            
+
+ <!-- MENÚ DE NAVEGACIÓN -->
+    <nav class="nav-menu" id="nav-menu">
+         <ul>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+
+<!-- ACCIONES A LA DERECHA (INICIAR SESIÓN Y MENÚ HAMBURGUESA) -->
+        <div class="nav-actions">
+            <a href="#contacto" class="btn btn-sm btn-primary">Únete a la Red</a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir Menú">
+                <img src="menu-icon.png" alt="Menú" class="menu-icon-img">
+                </button> 
+        </div>
+                
+
+<!-- BOTÓN DENTRO DEL HEADER PARA PANTALLAS PEQUEÑAS -->
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir Menú">
+                <img src="menu-icon.png" alt="Menú" class="menu-icon-img">
+                </button>
+        </div>
+        </div>
+    </header>
+
+
+<!-- HERO PRINCIPAL EN 2 COLUMNAS -->
+    <section class="hero-section">
+        <!-- VIDEO DE FONDO -->
+    <video autoplay loop muted playsinline class="hero-bg-video">
+        <source src="videofondo.mp4" type="video/mp4">
+    </video>
+    <!-- CAPA OSCURA PARA PROTEGER EL CONTENIDO -->
+    <div class="hero-overlay"></div>
+    <div class="container hero-container">
+            
+<!-- COLUMNA IZQUIERDA: TEXTO Y BOTONES -->
+    <div class="hero-content">
+        <span class="badge"><i class="fa-solid fa-users"></i> Comunidad Musical</span>
+            <h1>Conectando Talentos en Toda Latinoamérica</h1>
+            <p>La música nos une. Descubre cómo nuestras iniciativas sociales, talleres y proyectos educativos están impulsando a la nueva generación de músicos.</p>
+                
+    <div class="hero-buttons">
+            <a href="#comunidad" class="btn btn-primary">Ver Proyectos Sociales</a>
+            <a href="#nosotros" class="btn btn-outline">Conócenos</a>
+    </div>
+    </div>
+
+<!-- COLUMNA DERECHA: FOTO O VIDEO -->
+    <div class="hero-media">
+    <div class="media-card">
+                    
+        <img src="alex.jpg" alt="Comunidad Musical Yamaha" class="hero-element">
+
+<!-- TARJETA FLOTANTE DE IMPACTO SOCIAL -->
+    <div class="floating-badge">
+        <i class="fa-solid fa-heart"></i>
+    <div>
+        <strong>+10,000</strong>
+        <span>Músicos registrados</span>
+    </div>
+    </div>
+
+    </div>
+    </div>
+
+    </div>
+    </section>
+
+    
+<!-- SECCIÓN NOSOTROS -->
+    <section class="about-section" id="nosotros">
+    <div class="container about-grid">
+
+<!-- COLUMNA IZQUIERDA: TEXTO Y MÉTRICAS -->
+    <div class="about-content">
+        <span class="badge-red">SOBRE YAMAHA</span>
+        <h2>Compartiendo Pasión y Rendimiento en Latinoamérica</h2>
+            <p>
+                Desde 1975, Yamaha Music Latin America fomenta la cultura y la educación musical en la región. No solo creamos instrumentos y equipos de audio de nivel mundial, sino que enriquecemos vidas impulsando el talento de las nuevas generaciones.
+            </p>
+
+    <div class="about-stats">
+    <div class="stat-item">
+        <h3>+50</h3>
+            <p>Años en Latinoamérica</p>
+    </div>
+    <div class="stat-item">
+        <h3>+40</h3>
+            <p>Academias de Música</p>
+    </div>
+    <div class="stat-item">
+        <h3>100%</h3>
+            <p>Compromiso Cultural</p>
+    </div>
+    </div>
+    </div>
+
+<!-- COLUMNA DERECHA: TARJETAS DINÁMICAS -->
+    <div class="about-cards-wrapper">
+
+<!-- Contenedor de Tarjetas -->
+    <div class="cards-container">
+
+<!-- Tarjeta 1: Educación -->
+    <div class="about-card active" id="card-1">
+    <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <h3>Educación e Innovación</h3>
+            <p>
+                A través de la Fundación Musical Yamaha y nuestras más de 40 academias, brindamos oportunidades para estudiar, componer y proyectar el talento joven al mundo.
+            </p>
+    </div>
+
+<!-- Tarjeta 2: Instrumentos & Audio -->
+    <div class="about-card" id="card-2">
+    <div class="card-icon"><i class="fa-solid fa-guitar"></i></div>
+            <h3>Instrumentos & Audio Pro</h3>
+            <p>
+                Líderes mundiales en la fabricación de pianos, sintetizadores, baterías y sistemas de sonido profesional reconocidos por su superioridad acústica y artesanal.
+            </p>
+    </div>
+
+<!-- Tarjeta 3: Filosofía & Sostenibilidad -->
+    <div class="about-card" id="card-3">
+    <div class="card-icon"><i class="fa-solid fa-earth-americas"></i></div>
+        <h3>Filosofía "Make Waves"</h3>
+            <p>
+                Inspiramos a las personas a expresarse con su sonido, promoviendo la conservación forestal de maderas sostenibles y el desarrollo cultural regional.
+            </p>
+    </div>
+    </div>
+
+<!-- Indicadores / Switchers estilo Píldoras -->
+    <div class="card-tabs">
+        <button class="tab-btn active" onclick="switchCard(0)"></button>
+        <button class="tab-btn" onclick="switchCard(1)"></button>
+        <button class="tab-btn" onclick="switchCard(2)"></button>
+    </div>
+    </div>
+
+</div> <!-- Cierre de .about-grid -->
+</div> <!-- Cierre de .container -->
+</section> <!-- Cierre OBLIGATORIO de .about-section -->
+        
+
+<!-- PRODUCTOS (Simplificado para evitar exceso de texto/cuadros) -->
+    
+    <section class="products-section" id="productos">
+    <div class="container">
+    <div class="section-header">
+        <span class="section-tag">Soluciones Musicales</span>
+            <h2>Explora por Categoría</h2>
+    </div>
+
+<!-- PÍLDORAS / TABS CON EVENTO ONCLICK -->
+    <div class="pill-categories">
+        <button class="pill active" onclick="switchCategory('instrumentos', this)"><i class="fa-solid fa-drum"></i> Instrumentos</button>
+        <button class="pill" onclick="switchCategory('audiopro', this)"><i class="fa-solid fa-sliders"></i> Audio Pro</button>
+        <button class="pill" onclick="switchCategory('homedj', this)"><i class="fa-solid fa-headphones"></i> Home & DJ</button>
+    </div>    
+    <!-- CONTENEDOR CATEGORÍA: INSTRUMENTOS (ACTIVO POR DEFECTO) -->
+        <div class="category-panel active" id="cat-instrumentos">
+            <div class="product-banner banner-pianos">
+                <div class="banner-text">
+                    <h3>Pianos & Teclados Digitales</h3>
+                    <p>Diseñados para el aprendizaje dinámico y la producción profesional.</p>
+                    <a href="#" class="btn btn-sm btn-primary">Explorar Catálogo</a>
+                </div>
+            </div>
+            <div class="product-banner banner-guitarras">
+                <div class="banner-text">
+                    <h3>Guitarras & Bajos Acústicos</h3>
+                    <p>Artesanía de precisión con maderas seleccionadas para un sonido vibrante.</p>
+                    <a href="#" class="btn btn-sm btn-primary">Explorar Catálogo</a>
+                </div>
+            </div>
+            <div class="product-banner banner-baterias">
+                <div class="banner-text">
+                    <h3>Baterías & Percusión</h3>
+                    <p>Sistemas acústicos y electrónicos de alto rendimiento para escenario y estudio.</p>
+                    <a href="#" class="btn btn-sm btn-primary">Explorar Catálogo</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTENEDOR CATEGORÍA: AUDIO PRO -->
+        <div class="category-panel" id="cat-audiopro">
+            <div class="product-banner banner-consolas">
+                <div class="banner-text">
+                    <h3>Consolas & Mezcladores Digitales</h3>
+                    <p>Control intuitivo y procesamiento de sonido de nivel profesional.</p>
+                    <a href="#" class="btn btn-sm btn-primary">Explorar Catálogo</a>
+                </div>
+            </div>
+            <div class="product-banner banner-altavoces">
+                <div class="banner-text">
+                    <h3>Altavoces & Monitores de Estudio</h3>
+                    <p>Fidelidad acústica impecable para refuerzo de sonido en vivo y mezclas.</p>
+                    <a href="#" class="btn btn-sm btn-primary">Explorar Catálogo</a>
+                </div>
+            </div>
+            <div class="product-banner banner-microfonos">
+                <div class="banner-text">
+                    <h3>Sistemas Inalámbricos & Procesadores</h3>
+                    <p>Transmisión de audio de alta definición para eventos masivos e instalaciones.</p>
+                    <a href="#" class="btn btn-sm btn-primary">Explorar Catálogo</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTENEDOR CATEGORÍA: HOME & DJ -->
+        <div class="category-panel" id="cat-homedj">
+            <div class="product-banner banner-auriculares">
+                <div class="banner-text">
+                    <h3>Auriculares & Ecualizadores DJ</h3>
+                    <p>Aislamiento acústico y respuesta de graves potente para DJs y productores.</p>
+                    <a href="#" class="btn btn-sm btn-primary">Explorar Catálogo</a>
+                </div>
+            </div>
+            <div class="product-banner banner-homeaudio">
+                <div class="banner-text">
+                    <h3>Sistemas de Audio Residencial</h3>
+                    <p>Barras de sonido y receptores AV para una experiencia de cine en casa.</p>
+                    <a href="#" class="btn btn-sm btn-primary">Explorar Catálogo</a>
+                </div>
+            </div>
+            <div class="product-banner banner-interfaces">
+                <div class="banner-text">
+                    <h3>Interfaces & Streamers Compactos</h3>
+                    <p>Herramientas esenciales para la creación de contenido y podcasters.</p>
+                    <a href="#" class="btn btn-sm btn-primary">Explorar Catálogo</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- SECCIÓN SOCIAL Y COMUNIDAD (Diseño Limpio sin exceso de cuadritos) -->
+    <section class="social-section" id="blog" >
+    <div class="container">
+    <div class="section-header">
+        <span class="section-tag">Impacto Social</span>
+            <h2>Historias que Inspiran</h2>
+                <p>Proyectos, becas y talleres que potencian el talento musical de nuestra región.</p>
+    </div>
+
+
+<!-- Carrusel / Fila interactiva en lugar de galería abrumadora -->
+    <div class="stories-row">
+        <article class="story-card">
+    <div class="story-badge">Academia Yamaha</div>
+            <h3>Cursos y Talleres Universitarios</h3>
+                <p>Programas de formación musical gratuita para jóvenes en comunidades vulnerables.</p>
+                <a href="#" class="link-btn">Ver Iniciativa &rarr;</a>
+        </article>
+
+        <article class="story-card">
+    <div class="story-badge">Eco-Music</div>
+            <h3>Conservación del Rosewood</h3>
+                <p>Proyectos de reforestación en alianza con comunidades locales para la fabricación ética.</p>
+                <a href="#" class="link-btn">Conocer más &rarr;</a>
+        </article>
+
+        <article class="story-card">
+    <div class="story-badge">En Vivo</div>
+            <h3>Encuentro de Bandas Juveniles</h3>
+                <p>Eventos comunitarios para dar visibilidad a artistas emergentes latinoamericanos.</p>
+                <a href="#" class="link-btn">Ver Eventos &rarr;</a>
+        </article>
+    </div>
+    </div>
+    </section>
+
+
+   <!-- SECCIÓN CTA DE CONTACTO CON DEGRADADO -->
+<section class="contact-cta-section" id="contacto">
+    <div class="container">
+        <div class="cta-card">
+            <div class="cta-content">
+                <span class="badge-tag">ÚNETE A LA RED</span>
+                <h2>Sé parte de la Comunidad Yamaha</h2>
+                <p class="cta-subtext">
+                    ¿Tienes dudas, deseas solicitar patrocinio para un proyecto comunitario o quieres inscribirte a nuestras clínicas musicales? Queremos conocerte y asesorarte a medida.
+                </p>
+                
+                <div class="cta-actions">
+                    <!-- Coloca aquí el link a tu formulario externo -->
+                    <a href="https://melgarejoas05-blip.github.io/FORMULARIO/" target="_blank" rel="noopener noreferrer" class="btn btn-purple-glow">
+                        <i class="fa-solid fa-paper-plane"></i> Ir al Formulario de Asesoría
+                    </a>
+                </div>
+
+                <div class="cta-contact-direct">
+                    <span><i class="fa-solid fa-envelope"></i> contacto@yamaha-latinamerica.com</span>
+                    <span><i class="fa-solid fa-location-dot"></i> Oficinas Regionales: América Latina</span>
+                </div>
+            </div>
+            
+            <div class="cta-info-pills">
+                <div class="info-pill">
+                    <i class="fa-solid fa-clock"></i>
+                    <span>Respuesta en menos de 24h</span>
+                </div>
+                <div class="info-pill">
+                    <i class="fa-solid fa-user-check"></i>
+                    <span>Asesoría 100% personalizada</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- PIE DE PÁGINA (FOOTER) -->
+<footer class="site-footer">
+    <div class="container footer-content">
+        <div class="footer-brand">
+            <span class="logo-text">YAMAHA</span>
+            <span class="region-tag">Latinoamérica</span>
+        </div>
+        <p class="footer-copy">&copy; 2026 Yamaha Corporation. Todos los derechos reservados.</p>
+        <div class="footer-socials">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+    <script>
+    function switchCard(index) {
+        const cards = document.querySelectorAll('.about-card');
+        const tabs = document.querySelectorAll('.tab-btn');
+
+        cards.forEach((card, i) => {
+            if (i === index) {
+                card.classList.add('active');
+                tabs[i].classList.add('active');
+            } else {
+                card.classList.remove('active');
+                tabs[i].classList.remove('active');
+            }
+        });
+    }
+
+    // Opcional: Cambio automático cada 5 segundos
+    let currentCard = 0;
+    setInterval(() => {
+        currentCard = (currentCard + 1) % 3;
+        switchCard(currentCard);
+    }, 5000);
+</script>
+
+<script>
+        function switchCategory(catId, btnElement) {
+            const panels = document.querySelectorAll('.category-panel');
+            panels.forEach(panel => panel.classList.remove('active'));
+
+            const pills = document.querySelectorAll('.pill-categories .pill');
+            pills.forEach(pill => pill.classList.remove('active'));
+
+            document.getElementById('cat-' + catId).classList.add('active');
+            btnElement.classList.add('active');
+        }
+    </script>
+
+    
+</body>
+</html>
